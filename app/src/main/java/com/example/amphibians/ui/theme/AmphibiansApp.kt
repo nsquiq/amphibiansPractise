@@ -30,9 +30,7 @@ fun AmphibiansApp(){
                 .fillMaxSize()
                 .padding(it)
         ){
-            HomeScreen(
-
-            )
+            HomeScreen(amphibians = amphibiansUiState.amphibians)
         }
     }
 }
